@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T11:38:09 IST" name="Error validation test" finished-at="2024-02-12T11:38:13 IST" duration-ms="4023">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="LogingErrorValidationTest.loginErrorValidationTest()[pri:0, instance:com.EcommerceFramework.qa.LogingErrorValidationTest@5c5eefef]" name="loginErrorValidationTest" class="com.EcommerceFramework.qa.LogingErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-02-12T11:38:09 IST" name="Smoke Test1" finished-at="2024-02-12T11:38:09 IST" duration-ms="10">
+    </test> <!-- Smoke Test1 -->
+    <test started-at="2024-02-12T11:38:09 IST" name="Login Error Test" finished-at="2024-02-12T11:38:13 IST" duration-ms="4023">
+      <class name="com.EcommerceFramework.qa.LogingErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.EcommerceFramework.qa.LogingErrorValidationTest@5c5eefef]" started-at="2024-02-12T11:38:09 IST" name="launchApplication" finished-at="2024-02-12T11:38:12 IST" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidationTest()[pri:0, instance:com.EcommerceFramework.qa.LogingErrorValidationTest@5c5eefef]" started-at="2024-02-12T11:38:12 IST" name="loginErrorValidationTest" finished-at="2024-02-12T11:38:13 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.EcommerceFramework.qa.LogingErrorValidationTest@5c5eefef]" started-at="2024-02-12T11:38:13 IST" name="tearDown" finished-at="2024-02-12T11:38:13 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginErrorValidationTest status=SUCCESS method=LogingErrorValidationTest.loginErrorValidationTest()[pri:0, instance:com.EcommerceFramework.qa.LogingErrorValidationTest@5c5eefef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EcommerceFramework.qa.LogingErrorValidationTest -->
+    </test> <!-- Login Error Test -->
+  </suite> <!-- Error validation test -->
+</testng-results>

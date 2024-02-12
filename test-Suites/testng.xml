@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  parallel="tests" thread-count="2" name="Regression Suite">
+	
+	<listeners>
+		<listener class-name="com.EcommerceFramework.Listeners.ExtentListeners"></listener>
+	</listeners>
+  <test thread-count="1" name="Smoke Test1">
+    <classes>
+      <class name="com.EcommerceFramework.qa.FirstOrderTest_POM"/>
+    </classes>
+  </test> <!-- Test1 -->
+    <test thread-count="1" name="Login Error Test">
+    <classes>
+      <class name="com.EcommerceFramework.qa.LogingErrorValidationTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+  
+</suite> <!-- Regression Suite -->
