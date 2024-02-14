@@ -16,5 +16,11 @@ public class LogingErrorValidationTest extends BaseTest{
 		Assert.assertEquals(error, "Incorrect email or password.");
 		
 	}
+	
+	@Test
+	public void loginErrorValidationTest01() {
+		//To do
+		
+	}
 
 }
