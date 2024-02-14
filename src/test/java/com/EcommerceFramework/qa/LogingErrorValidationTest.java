@@ -19,7 +19,7 @@ public class LogingErrorValidationTest extends BaseTest{
 	
 	@Test
 	public void loginErrorValidationTest01() {
-	system.out.Println("incomplete test");
+	System.out.println("incomplete test");
 		
 	}
 
